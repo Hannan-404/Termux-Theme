@@ -1,0 +1,18 @@
+import os
+
+print('[✓] Created By Hannan Ansari')
+print('[+] For More Fonts/Colors Visit https://github.com/Cabbagec/termux-ohmyzsh')
+print('[©] Credit : Termux-OhMyZsh')
+print()
+print('[-] Unzipping config')
+os.system('unzip config.zip')
+os.system('chmod 777 config/*')
+print('[~] Installing Modules')
+os.system('config/install.sh')
+print('[•] Changing The Colours ')
+os.system('config/colors.sh')
+print('[•] Changing The Fonts ')
+os.system('config/fonts.sh')
+print('[•] Adding Android Logo ')
+os.system('cp zshrc /data/data/com.termux/files/usr/etc;cd  /data/data/com.termux/files/usr/etc;rm motd.sh motd')
+print('[✓] Successfully Installed Restart Termux App')
