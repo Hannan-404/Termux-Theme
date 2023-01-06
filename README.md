@@ -1,2 +1,9 @@
-# Termux-Theme
-Termux Op Theme
+# Termux-OhMyZsh
+* Installation
+```
+git clone https://gitHub.com/Hannan-404/Termux-Theme
+cd Termux-Theme
+python Theme.py
+```
+* ScreenShot
+<img src="Screenshot_20230106-234325.png">
