@@ -1,6 +1,7 @@
 # Termux-OhMyZsh
 * Installation
 ```
+pkg install neofetch -y
 git clone https://gitHub.com/Hannan-404/Termux-Theme
 cd Termux-Theme
 python Theme.py
